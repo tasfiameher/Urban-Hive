@@ -248,3 +248,18 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+/* footer styles */
+footer {
+
+    background-color: #9376e0;
+    margin-top: 20px;
+    padding-top: 40px;
+    min-height: 150px;
+    text-align: center;
+    color: white;
+}
+
+footer span {
+    font-size: 14px;
+}
