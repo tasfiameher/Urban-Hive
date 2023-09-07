@@ -64,4 +64,15 @@
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .discount-container {
+        flex-direction: column;
+    }
+
+    .discount-img,
+    .discount-text {
+        width: 100%;
+
+    }
+
 }

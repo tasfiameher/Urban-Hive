@@ -170,3 +170,65 @@ nav {
     margin-left: 5px;
     color: white;
 }
+
+/* discount section styles */
+.discount-section {
+    background-color: #9376e0;
+    min-height: 500px;
+    padding: 20px 0;
+    margin: 30px auto;
+
+}
+
+.discount-container {
+    max-width: 1000px;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-img {
+    width: 50%;
+    position: relative;
+}
+
+.discount-img img {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.discount-text {
+    width: 50%;
+}
+
+.discount-number {
+    background-color: rgb(128, 128, 16);
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+
+}
+
+/* discount section ends here */
+.review-container {
+    border: 1px solid red;
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.single-review {
+    border: 1px solid green;
+    flex-basis: 300px;
+}
