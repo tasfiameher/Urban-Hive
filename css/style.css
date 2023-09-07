@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    background-color: #9376e0;
+}
+
+.nav-container {
+    display: flex;
+
+    align-items: center;
+    min-height: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img {
+    width: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.logo-container p {
+    font-size: 30px;
+}
+
+.hive-text {
+    color: #e893cf;
+}
+
+.nav-items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items-container a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-items-container .login-btn {
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+
+}
+
+/* nav styles end */
+/* banner styles starts */
+.banner-container {
+    border: 1px solid red;
+    margin: 50px auto 0;
+    max-width: 1000px;
+    min-height: 50px;
+}
+
+.banner-text {
+    border: 1px solid green;
+    width: 50px;
+}
+
+.banner-text {
+    border: 1px solid yellow;
+    width: 50px;
+}
