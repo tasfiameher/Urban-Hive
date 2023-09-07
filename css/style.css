@@ -222,13 +222,29 @@ nav {
 
 /* discount section ends here */
 .review-container {
-    border: 1px solid red;
-    min-height: 200px;
+    gap: 20px;
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .single-review {
     border: 1px solid green;
     flex-basis: 300px;
+    background-color: #e893cf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.single-review img {
+    width: 60px;
+    height: 60px;
+}
+
+.top-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
